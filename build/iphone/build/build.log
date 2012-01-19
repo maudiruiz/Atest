@@ -1,0 +1,79 @@
+================================================================================
+Appcelerator Titanium Diagnostics Build Log
+The contents of this file are useful to send to Appcelerator Support if
+reporting an issue to help us understand your environment, build settings
+and aid in debugging. Please attach this log to any issue that you report.
+================================================================================
+
+Starting build at 01/18/12 23:01
+
+Build details:
+
+   timestamp=09/26/11 10:26
+   version=1.8.0
+   githash=8169a91
+
+
+Script arguments:
+   /Users/maudiruiz/Library/Application Support/Titanium/mobilesdk/osx/1.8.0/iphone/builder.py
+   simulator
+   5.0
+   /Users/maudiruiz/Documents/Workspace/Antiturista
+   com.antiturista
+   Antiturista
+   universal
+   iphone
+   
+
+Building from: /Users/maudiruiz/Library/Application Support/Titanium/mobilesdk/osx/1.8.0/iphone
+Platform: Darwin Kernel Version 11.2.0: Tue Aug  9 20:54:00 PDT 2011; root:xnu-1699.24.8~1/RELEASE_X86_64
+
+Xcode path is: /Developer
+
+
+githash=8169a91, existing_git_hash=8169a91
+writing contents of /Users/maudiruiz/Documents/Workspace/Antiturista/build/iphone/project.xcconfig:
+
+TI_VERSION=1.8.0
+TI_SDK_DIR=/Users/maudiruiz/Library/Application Support/Titanium/mobilesdk/osx/$(TI_VERSION)/iphone
+TI_APPID=com.antiturista
+OTHER_LDFLAGS[sdk=iphoneos*]=$(inherited) -weak_framework iAd
+OTHER_LDFLAGS[sdk=iphonesimulator*]=$(inherited) -weak_framework iAd
+#include "module"
+
+old contents
+
+
+Generated the following stylecode code:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>classes</key>
+		<dict>
+</dict>
+
+		<key>classes_density</key>
+		<dict>
+</dict>
+
+		<key>ids</key>
+		<dict>
+</dict>
+
+		<key>ids_density</key>
+		<dict>
+</dict>
+
+		<key>tags</key>
+		<dict>
+</dict>
+
+		<key>tags_density</key>
+		<dict>
+</dict>
+
+	</dict>
+</plist>
+Finishing build
